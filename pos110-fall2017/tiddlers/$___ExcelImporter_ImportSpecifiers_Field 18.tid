@@ -1,0 +1,10 @@
+created: 20170815183451041
+import-field-column: calendar-events
+import-field-name: calendar-events
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170816193212247
+title: $:/_ExcelImporter/ImportSpecifiers/Field 18
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,12 @@
+created: 20170815182905532
+import-field-column: Column Name
+import-field-list-op: append
+import-field-name: tags
+import-field-source: constant
+import-field-type: string
+import-field-value: Modules
+import-spec-role: field
+modified: 20170816193212110
+title: $:/_ExcelImporter/ImportSpecifiers/Field 1
+type: text/vnd.tiddlywiki
+

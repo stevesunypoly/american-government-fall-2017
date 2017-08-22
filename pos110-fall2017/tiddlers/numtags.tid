@@ -1,0 +1,19 @@
+created: 20170816135934442
+modified: 20170816193213252
+source: https://groups.google.com/d/msg/tiddlywiki/LSnmBKK8Oyg/qn_XfKomPQAJ
+tags: 
+title: numtags
+type: text/vnd.tiddlywiki
+
+<style>
+.cloud { margin-right: 7px; }
+.cloud .tc-tag-list-item { margin-right: 0; }
+</style>
+<$list filter="[tags[]!is[system]sort[title]]">
+<span class="cloud">
+<$transclude tiddler="$:/core/ui/TagTemplate"/>
+<$count filter="[all[current]tagging[]]"/>
+</span>
+</$list>
+<br>
+<a href={{!!source}} target="_blank">Source</a>

@@ -1,0 +1,10 @@
+created: 20170815183509122
+import-field-column: class-topic
+import-field-name: class-topic
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170816193212227
+title: $:/_ExcelImporter/ImportSpecifiers/Field 20
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,10 @@
+created: 20170815183210338
+import-field-column: due-date
+import-field-name: due-date
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170816193212077
+title: $:/_ExcelImporter/ImportSpecifiers/Field 13
+type: text/vnd.tiddlywiki
+

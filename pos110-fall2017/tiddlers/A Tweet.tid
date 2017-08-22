@@ -1,0 +1,29 @@
+created: 20170816144401111
+modified: 20170816193212333
+tags: 
+title: A Tweet
+type: text/vnd.tiddlywiki
+
+<$twitter type="tweet" tweetID="897812562766639108"/>
+<hr>
+A workflow:
+
+# Tweet
+# IFTTT [[recipe|https://ifttt.com/applets/59545359d-if-new-tweet-by-stevesunypoly-including-retweets-replies-then-create-a-text-file-in-steve-sunyit-edu-s-box]]
+## Creates text file on Box (or DropBox) in tiddlers folder of node.js wiki with this structure:<br>``
+title: {{UserName}}. {{CreatedAt}}<br>
+createdAt: {{CreatedAt}}<br>
+tweet-text: {{Text}}<br>
+tweet-link: {{LinkToTweet}}<br>
+tags: TweetsToReview<br>
+``
+# bash script
+## rename .txt files as .tid files
+## load all tid files into wiki
+## write index script 
+# tweet review process
+## use [[tweets templates]] to identify and present tiddlers tagged for review
+## removes <<tag TweetsToReview>> and replaces with <<tag Tweets>>
+## use [[Checkbox tag macro]] to add tags based on specific dimensions
+## rename tiddler (so it doesn't get overwritten next load)
+

@@ -1,0 +1,8 @@
+created: 20170816150919176
+import-sheet-name: tweets
+import-spec-role: sheet
+list: [[$:/_ExcelImporter/ImportSpecifiers/Row 3]]
+modified: 20170816193212894
+title: $:/_ExcelImporter/ImportSpecifiers/Sheet 3
+type: text/vnd.tiddlywiki
+

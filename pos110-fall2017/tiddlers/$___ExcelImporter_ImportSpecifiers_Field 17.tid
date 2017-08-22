@@ -1,0 +1,10 @@
+created: 20170815183436077
+import-field-column: sortable-date
+import-field-name: sortable-date
+import-field-source: column
+import-field-type: date
+import-spec-role: field
+modified: 20170816193212251
+title: $:/_ExcelImporter/ImportSpecifiers/Field 17
+type: text/vnd.tiddlywiki
+

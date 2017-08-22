@@ -1,0 +1,12 @@
+created: 20170816160322526
+modified: 20170816193411181
+tags: 
+title: Tweets
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Tweets]]">
+<$list filter="[{!!tweet-link}split:after[status/]]">
+<$twitter type="tweet" tweetID=<<currentTiddler>>/>
+</$list>
+<hr>
+</$list>

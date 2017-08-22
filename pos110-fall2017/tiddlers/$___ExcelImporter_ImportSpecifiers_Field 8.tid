@@ -1,0 +1,10 @@
+created: 20170815183040649
+import-field-column: modue-number
+import-field-name: module-number
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170816193212174
+title: $:/_ExcelImporter/ImportSpecifiers/Field 8
+type: text/vnd.tiddlywiki
+

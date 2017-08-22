@@ -1,0 +1,10 @@
+created: 20170815182937533
+import-field-column: module-name
+import-field-name: module-name
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170816193212202
+title: $:/_ExcelImporter/ImportSpecifiers/Field 3
+type: text/vnd.tiddlywiki
+

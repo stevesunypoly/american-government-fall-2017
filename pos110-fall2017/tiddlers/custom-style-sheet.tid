@@ -1,0 +1,30 @@
+created: 20170727202737911
+modified: 20170816193212297
+tags: $:/tags/Stylesheet
+title: custom-style-sheet
+type: text/vnd.tiddlywiki
+
+.class-topic {
+    font-weight: bold;
+    font-size:100%;
+    color: <<color tiddler-title-foreground>>;
+}
+
+
+.class-notes {
+    font-style: italic;
+    font-size:100%;
+}
+
+.due-date {
+    font-weight: normal;
+    font-size:100%;
+}
+
+.class-date {
+    font-weight: bold;
+    font-size:125%;
+}
+
+
+.

@@ -1,0 +1,8 @@
+caption: syllabus
+created: 20170815182753662
+import-spec-role: workbook
+list: [[$:/_ExcelImporter/ImportSpecifiers/Sheet 2]] [[$:/_ExcelImporter/ImportSpecifiers/Sheet 1]] $:/_ExcelImporter/ImportSpecifiers/Sheet
+modified: 20170816193212817
+title: $:/_ExcelImporter/ImportSpecifiers/Workbook
+type: text/vnd.tiddlywiki
+

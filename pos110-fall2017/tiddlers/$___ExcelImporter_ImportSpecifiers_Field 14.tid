@@ -1,0 +1,12 @@
+created: 20170815183218437
+import-field-column: assignment-
+import-field-name: module-number
+import-field-prefix: -description
+import-field-source: column
+import-field-type: string
+import-field-value: assignment-description
+import-spec-role: field
+modified: 20170816193212062
+title: $:/_ExcelImporter/ImportSpecifiers/Field 14
+type: text/vnd.tiddlywiki
+

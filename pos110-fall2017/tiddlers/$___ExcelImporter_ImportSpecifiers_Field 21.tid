@@ -1,0 +1,10 @@
+created: 20170815184808918
+import-field-column: module-due
+import-field-name: module-due
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170816193212224
+title: $:/_ExcelImporter/ImportSpecifiers/Field 21
+type: text/vnd.tiddlywiki
+

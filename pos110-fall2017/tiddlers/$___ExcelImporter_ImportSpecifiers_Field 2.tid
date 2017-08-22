@@ -1,0 +1,10 @@
+created: 20170815182920617
+import-field-column: module-start
+import-field-name: module-start
+import-field-source: column
+import-field-type: date
+import-spec-role: field
+modified: 20170816193212239
+title: $:/_ExcelImporter/ImportSpecifiers/Field 2
+type: text/vnd.tiddlywiki
+

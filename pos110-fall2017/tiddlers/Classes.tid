@@ -1,0 +1,38 @@
+created: 20170815191321609
+modified: 20170816193212312
+title: Classes
+type: text/vnd.tiddlywiki
+
+\define indirect() Module$(module-due)$
+
+<$list filter="[tag[Classes]sort[sortable-date]]">
+
+<span class="class-date">
+<$link><$transclude field="title" mode="inline"/></$link><br>
+</span>
+
+<ul>
+
+<span class="class-topic">
+<$list filter="[title<currentTiddler>!class-topic[]]">
+<li>Topic: <$transclude field="class-topic" mode="inline"/></li>
+</$list>
+</span>
+
+
+<span class="due-date">
+<$list filter="[title<currentTiddler>!module-due[]]">
+<$vars module-due={{!!module-due}}>
+<li>Assignment Due: <$link to=<<indirect>>>Module<$transclude field="module-due" mode="inline"/> </$link></li>
+</$vars>
+</$list>
+</span>
+
+<span class="class-notes">
+<$list filter="[title<currentTiddler>!calendar-events[]]">
+<li>Note: <$transclude field="calendar-events" mode="inline"/></li>
+</$list>
+</span>
+
+</ul>
+</$list>

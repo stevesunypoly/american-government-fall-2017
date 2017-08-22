@@ -1,0 +1,11 @@
+created: 20170816152128003
+modified: 20170817211304341
+tags: $:/tags/ViewTemplate
+title: tweets templates
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[Tweets]]">
+<$list filter="[{!!tweet-link}split:after[status/]]">
+<$twitter type="tweet" tweetID=<<currentTiddler>>/>
+</$list>
+</$list>
