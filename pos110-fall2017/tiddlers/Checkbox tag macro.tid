@@ -1,13 +1,13 @@
 created: 20170320145657641
 creator: stevesunypoly
-modified: 20170817210014498
+modified: 20170830145106170
 modifier: steve
 tags: $:/tags/Macro SlicingText Templating
 title: Checkbox tag macro
 type: text/vnd.tiddlywiki
 
 \define checkboxtag(tiddler parentTag)
-<$link to="$parentTag$">$parentTag$</$link> <br><$list filter="[tag[$parentTag$]]"><$checkbox tiddler="$tiddler$" tag=<<currentTiddler>> ><<currentTiddler>></$checkbox>
+<$link to="$parentTag$">$parentTag$</$link> <br><$list filter="[tag[$parentTag$]]"><$checkbox tiddler="$tiddler$" tag=<<currentTiddler>> ><<currentTiddler>><br></$checkbox>
 </$list>
 <<designwrite "[[Macro|Checkbox tag macro]]">>
 \end

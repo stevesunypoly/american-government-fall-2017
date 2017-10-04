@@ -1,0 +1,12 @@
+created: 20170827172047990
+import-field-column: orig-type
+import-field-list-op: append
+import-field-name: tags
+import-field-source: column
+import-field-suffix: s
+import-field-type: string
+import-spec-role: field
+modified: 20170828003811310
+title: $:/_ExcelImporter/ImportSpecifiers/Field 34
+type: text/vnd.tiddlywiki
+

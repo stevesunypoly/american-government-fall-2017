@@ -1,0 +1,13 @@
+created: 20170828153735682
+list: [[Political Autobiography]] [[My American Exceptionalism]] [[My Key Issues]] [[My Issues in the Contemporary American Political System]]
+modified: 20170928195728933
+tags: 
+title: Assignments
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Assignments]]">
+<h2><<currentTiddler>></h2>
+''Due:'': {{!!due-date}}<br>
+''Assignment:'' <$transclude field="assignment-description" mode="block"/>
+''Grade:'' This assignment will contribute {{!!percent-grade}} to your course grade<br>
+</$list>

@@ -1,0 +1,10 @@
+created: 20170827171923050
+import-field-column: orig-order
+import-field-name: orig-order
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170827171933164
+title: $:/_ExcelImporter/ImportSpecifiers/Field 26
+type: text/vnd.tiddlywiki
+

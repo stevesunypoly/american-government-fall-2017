@@ -1,0 +1,10 @@
+created: 20170827171951431
+import-field-column: title-string
+import-field-name: title-string
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170827171958842
+title: $:/_ExcelImporter/ImportSpecifiers/Field 29
+type: text/vnd.tiddlywiki
+

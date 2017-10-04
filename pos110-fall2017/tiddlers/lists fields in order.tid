@@ -1,0 +1,21 @@
+created: 20170828004244344
+modified: 20170828153720817
+tags: 
+title: lists fields in order
+type: text/vnd.tiddlywiki
+
+<h1>[[Assignments]]</h1>
+<$list filter="[tag[Assignments]sort[sortable-date]]">
+<$text text="[["/><<currentTiddler>><$text text="]] "/>
+</$list><h1>[[Classes]]</h1>
+<$list filter="[tag[Classes]sort[sortable-date]]">
+<$text text="[["/><<currentTiddler>><$text text="]] "/>
+</$list>
+<h1>[[Chapters]]</h1>
+<$list filter="[tag[Chapters]nsort[chapter-number]]">
+<$text text="[["/><<currentTiddler>><$text text="]] "/>
+</$list>
+<h1>[[Sections]]</h1>
+<$list filter="[tag[Sections]nsort[chapter-number]nsort[section-number]]">
+<$text text="[["/><<currentTiddler>><$text text="]] "/>
+</$list>

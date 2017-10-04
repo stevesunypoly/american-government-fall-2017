@@ -1,9 +1,10 @@
 calendar-events: 
 class-topic: What is politics? What is political identity?
-created: 20170816193213487
-modified: 20170816193213487
+created: 20170928193243776
+modified: 20170928193950917
 module-due: 
 module-number: 1
+slideshows: <<slideshow "What is politics?">> <<slideshow "What is political identity?">>
 sortable-date: 20170830000000000
 tags: Classes
 title: Wed Aug30

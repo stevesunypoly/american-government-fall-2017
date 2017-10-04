@@ -1,0 +1,30 @@
+created: 20170807200350029
+draft.of: Course Syllabus
+draft.title: Course Syllabus
+list: [[Course Title]]
+modified: 20170928194830571
+section: Section 01
+title: Draft of 'Course Syllabus'
+type: text/vnd.tiddlywiki
+
+<h1>Fall 2017</h1>
+<h2>Catalog Description</h2>
+{{Catalog Description}}
+<h2>Faculty</h2>
+<$list filter="[tag[Course Faculty]field:section{!!section}]">
+<$transclude mode="block"/>
+</$list>
+<!--<h2>Course Objectives</h2>
+<$transclude tiddler="Course Objectives" mode="block"/>
+<h2>Course Outcomes</h2>
+<$transclude tiddler="Student Outcomes" mode="block"/>-->
+<h2>Course Meeting Time</h2>
+<$transclude tiddler={{!!section}} mode="block"/>
+<h2>Assignments</h2>
+{{Assignments}}
+<h2>Class Schedule</h2>
+{{Modules and Classes}}
+<h2>Accommodations for Students with Disabilities</h2>
+{{Accommodations for Students with Disabilities}}
+
+

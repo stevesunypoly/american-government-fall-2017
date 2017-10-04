@@ -1,5 +1,5 @@
 created: 20170815183628965
-modified: 20170816193212305
+modified: 20170927151312962
 tags: $:/tags/ViewTemplate
 title: classes template
 type: text/vnd.tiddlywiki
@@ -8,27 +8,45 @@ type: text/vnd.tiddlywiki
 
 
 <$list filter="[is[current]tag[Classes]]">
+<p>
+''Today's Topic:'' <br><$transclude field="class-topic" mode="inline"/>
+</p>
 
-<span class="class-topic"><$transclude field="class-topic" mode="inline"/></span>
 
-<ul>
-
-<$list filter="[title<currentTiddler>!calendar-events[]]">
-<span class="calendar-event"><li><$transclude field="calendar-events" mode="inline"/></li></span>
+<p>
+''Readings for Today:''<br>
+<$list filter="[orig-type[Section]class-topic-reading{!!class-topic}]" emptyMessage="No readings for today">
+<a href={{!!constructed-link}} target="_blank">{{!!section-title}}</a><br>
+<$list filter="[section-number{!!section-number}orig-type[Concept]sort[orig-title]]">
+<<currentTiddler>><br>
 </$list>
+</$list>
+</p>
 
 <$list filter="[title<currentTiddler>!module-due[]]" emptyMessage={{NoAssignments}}>
 <$vars module-due={{!!module-due}}>
 <span class="module-link">
-<li>Due: <$link to=<<indirect>>>Module<$transclude field="module-due" mode="inline"/> </$link></li>
+Due: <br><$link>{{!!module-due}}</$link><br>
 </span>
 </$vars>
 </$list>
-</ul>
 
+<$list filter="[title<currentTiddler>!calendar-events[]]">
+''Announcements:''<br>
+<$transclude field="calendar-events" mode="inline"/>
+</$list>
 
+Slides: {{!!slideshows}}
 <hr>
-
+<!--Tweets
+<$list filter="[tag[Tweets]tag{!!class-topic}]"><$list filter="[is[current]tag[Tweets]]">
+<$list filter="[{!!tweet-link}split:after[status/]]">
+<$twitter type="tweet" tweetID=<<currentTiddler>>/>
+</$list>
+</$list>
+</$list>
+-->
+<hr>
 <span class="fpnl-days">
 <$macrocall $name="fpnl-by-tag" myTiddler=<<currentTiddler>> myTag="Classes" mySortField="sortable-date"/>
 </span>

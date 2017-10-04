@@ -1,0 +1,10 @@
+created: 20170828012114302
+import-field-column: class-topic
+import-field-name: class-topic-reading
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170828012214429
+title: $:/_ExcelImporter/ImportSpecifiers/Field 37
+type: text/vnd.tiddlywiki
+

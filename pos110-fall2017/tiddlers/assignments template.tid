@@ -1,0 +1,12 @@
+created: 20170828153209318
+modified: 20170828155005298
+tags: $:/tags/ViewTemplate
+title: assignments template
+type: text/vnd.tiddlywiki
+
+\define indirect() Module$(module-due)$
+<$list filter="[is[current]tag[Assignments]]">
+''Due:'': {{!!due-date}}<br>
+''Assignment:'' <$transclude field="assignment-description" mode="block"/>
+''Grade:'' This assignment will contribute {{!!percent-grade}} to your course grade<br>
+</$list>

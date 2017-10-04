@@ -1,0 +1,18 @@
+boundless-link: https://www.boundless.com/political-science/textbooks/boundless-political-science-textbook/american-politics-1/the-tenets-of-american-democracy-22/
+boundless-title: The Tenets of American Democracy
+concepts: Liberty Equality Democracy [[Popular Consent, Majority Rule, and Popular Sovereignty]] Individualism [[Religious Freedom]]
+created: 20170825141817757
+list: Liberty Equality Democracy [[Popular Consent, Majority Rule, and Popular Sovereignty]] Individualism [[Religious Freedom]]
+modified: 20170825145352163
+tags: Boundless Reading
+title: The Tenets of American Democracy - Reading
+type: text/vnd.tiddlywiki
+
+Reading: <a href={{!!boundless-link}}target="_blank">The Tenets of American Democracy</a>
+<p>
+Concepts:
+<ul><$list filter="[list<currentTiddler>]">
+<li><<currentTiddler>></li>
+</$list>
+</ul>
+</p>

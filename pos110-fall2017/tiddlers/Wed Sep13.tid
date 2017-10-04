@@ -1,9 +1,10 @@
 calendar-events: 
 class-topic: The democratic person
-created: 20170816193213601
-modified: 20170816193213601
+created: 20170928193243756
+modified: 20170928194038207
 module-due: 
 module-number: 1
+slideshows: <<slideshow "Political Socialization">>
 sortable-date: 20170913000000000
 tags: Classes
 title: Wed Sep13

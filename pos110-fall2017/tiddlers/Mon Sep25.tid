@@ -1,11 +1,18 @@
 calendar-events: 
 class-topic: Democracy in America
-created: 20170816193213309
-modified: 20170816193213309
+created: 20170928193243738
+modified: 20170928194131369
 module-due: 
 module-number: 2
+slideshows: <<slideshow "Democracy in America">>
 sortable-date: 20170925000000000
 tags: Classes
 title: Mon Sep25
 type: text/vnd.tiddlywiki
 
+Slides:<br>
+<ul>
+<$list filter="[tag{!!class-topic}sort[slidenum]]">
+<li><$link><<currentTiddler>></$link></li>
+</$list>
+</ul>

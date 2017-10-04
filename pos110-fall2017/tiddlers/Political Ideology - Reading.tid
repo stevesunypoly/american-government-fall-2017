@@ -1,0 +1,17 @@
+boundless-link: https://www.boundless.com/political-science/textbooks/boundless-political-science-textbook/american-politics-1/political-ideology-23/
+boundless-title: Political Ideology
+created: 20170825145856304
+list: Conservatism Liberalism [[The Traditional Political Spectrum]] [[Issues with the Traditional Political Spectrum]]
+modified: 20170825150000573
+tags: Boundless Reading
+title: Political Ideology - Reading
+type: text/vnd.tiddlywiki
+
+Reading: <a href={{!!boundless-link}}target="_blank">{{!!boundless-title}}</a>
+<p>
+Concepts:
+<ul><$list filter="[list<currentTiddler>]">
+<li><<currentTiddler>></li>
+</$list>
+</ul>
+</p>

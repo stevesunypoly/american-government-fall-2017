@@ -1,9 +1,9 @@
 author: JeremyRuston
 core-version: >=5.0.0
-created: 20170816193212347
+created: 20170829221117593
 dependents: $:/themes/tiddlywiki/snowwhite
 description: Heavier font theme
-modified: 20170816193212347
+modified: 20170829221117593
 name: Heavier
 plugin-type: theme
 title: $:/themes/tiddlywiki/heavier

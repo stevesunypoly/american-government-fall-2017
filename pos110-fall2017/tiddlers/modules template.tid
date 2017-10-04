@@ -1,0 +1,17 @@
+created: 20170823210809489
+modified: 20170823211208102
+tags: $:/tags/ViewTemplate
+title: modules template
+type: text/vnd.tiddlywiki
+
+\define indirect() Module$(module-due)$
+
+
+<$list filter="[is[current]tag[Modules]]">
+
+<p>
+<span class="module-description">Description: <$transclude field="module-description" mode="inline"/></span>
+</p>
+<span class="module-assignment">Assignment: <$link><$transclude field="module-assignment" mode="inline"/></$link></span><br>
+<span class="module-start">Begins: <$transclude field="module-start" mode="inline"/></span><br>
+</$list>

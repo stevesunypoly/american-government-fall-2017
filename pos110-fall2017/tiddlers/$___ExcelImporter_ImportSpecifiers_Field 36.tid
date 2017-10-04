@@ -1,0 +1,10 @@
+created: 20170828005505165
+import-field-column: section-title
+import-field-name: caption
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170828005514556
+title: $:/_ExcelImporter/ImportSpecifiers/Field 36
+type: text/vnd.tiddlywiki
+

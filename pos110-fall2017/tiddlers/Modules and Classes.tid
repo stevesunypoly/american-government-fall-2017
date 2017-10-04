@@ -1,0 +1,18 @@
+created: 20170823211519778
+modified: 20170823212321943
+title: Modules and Classes
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Modules]sort[module-number]]">
+<p>
+<h2><$link><<currentTiddler>></$link></h2>
+''Description'': {{!!module-description}}<br>
+''Assignment'': <$link>{{!!module-assignment}}</$link><br>
+</p>
+<$list filter="[tag[Classes]module-number{!!module-number}sort[sortable-date]]">
+<p>
+<$link><<currentTiddler>></$link><br>
+{{!!class-topic}}<br>
+</p>
+</$list>
+

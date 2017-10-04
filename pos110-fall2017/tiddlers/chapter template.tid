@@ -1,0 +1,15 @@
+created: 20170827174435289
+modified: 20170828003909916
+tags: $:/tags/ViewTemplate
+title: chapter template
+type: text/vnd.tiddlywiki
+
+\define indirect() Module$(module-due)$
+
+
+<$list filter="[is[current]tag[Chapters]]">
+
+<p>
+<a href={{!!constructed-link}} target="_blank">{{!!title}}</a>
+
+</p>

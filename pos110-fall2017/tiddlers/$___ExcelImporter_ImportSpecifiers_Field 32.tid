@@ -1,0 +1,10 @@
+created: 20170827172023321
+import-field-column: section-number
+import-field-name: section-number
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170827172034184
+title: $:/_ExcelImporter/ImportSpecifiers/Field 32
+type: text/vnd.tiddlywiki
+

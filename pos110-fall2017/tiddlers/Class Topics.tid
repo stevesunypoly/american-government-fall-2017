@@ -1,0 +1,8 @@
+created: 20170828150353729
+modified: 20170828150549135
+tags: 
+title: Class Topics
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Classes]]">
+<$link><<currentTiddler>></$link>: {{!!class-topic}}<br>

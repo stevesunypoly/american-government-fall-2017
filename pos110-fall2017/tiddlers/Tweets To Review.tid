@@ -1,6 +1,5 @@
 created: 20170816204347242
-modified: 20170817210649482
-revision: 0
+modified: 20170830145035593
 tags: 
 title: Tweets To Review
 type: text/vnd.tiddlywiki
@@ -14,7 +13,7 @@ There are <$count filter="[tag[TweetsToReview]]" /> tweets to review<br>
 <$list filter="[{!!tweet-link}split:after[status/]]">
 <$twitter type="tweet" tweetID=<<currentTiddler>>/>
 </$list>
-<$macrocall $name="checkboxtag" tiddler=<<oldTiddler>> parentTag="Political Institutions"/><br>
+<$macrocall $name="checkboxtag" tiddler=<<oldTiddler>> parentTag="class-topics"/><br>
 <$button>
 Review tweet
 <$tiddler tiddler=<<oldTiddler>>>

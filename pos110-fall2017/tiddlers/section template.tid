@@ -1,0 +1,15 @@
+created: 20170827174134520
+modified: 20170828003856732
+tags: $:/tags/ViewTemplate
+title: section template
+type: text/vnd.tiddlywiki
+
+\define indirect() Module$(module-due)$
+
+<$list filter="[is[current]tag[Sections]]">
+<a href={{!!constructed-link}} target="_blank">{{!!section-title}}</a><br>
+<ul>
+<$list filter="[section-number{!!section-number}orig-type[Concept]sort[orig-title]]">
+<li><<currentTiddler>></li>
+</$list>
+</ul>

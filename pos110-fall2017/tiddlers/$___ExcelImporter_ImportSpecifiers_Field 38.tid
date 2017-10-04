@@ -1,0 +1,10 @@
+created: 20170828153030936
+import-field-column: assignment-description
+import-field-name: assignment-description
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170828153045177
+title: $:/_ExcelImporter/ImportSpecifiers/Field 38
+type: text/vnd.tiddlywiki
+
